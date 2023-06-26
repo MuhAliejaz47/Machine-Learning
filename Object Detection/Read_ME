@@ -1,1 +1,9 @@
-
+For this program to run. You need to install opencv by:
+pip install opencv (assuming you have installed the basic libraries like numpy and pandas)
+All necessary files are already present in the folder so you do not need to download anything.
+This is an Object Detection machine learning task. 
+It uses COCO as a dataset. 
+It has 80 classes. 
+Implementation of the program is done on an image and also a video.  
+You can change the Video and the Image to make the code your own.
+In case of any queries you can contact me I will be happy to help :)
