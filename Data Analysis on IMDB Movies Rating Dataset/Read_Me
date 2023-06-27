@@ -1,1 +1,14 @@
+The data file is given in CSV format so you won't be needing to download anything.
 
+Just make sure you have basic libraries such as numpy, pandas, matplotlib and seaborn.
+
+To install them you can open your cmd and type:
+
+pip install numpy, pandas, matplotlib, seaborn.
+
+After the downloads have occured you are good to go!
+
+In this project, I have done data analysis on IMDB movies rating Dataset.
+I have found the null values and dropped them.
+Extracted some meaningful information from the data.
+Made it easier to understand the data using some visualization techniques. 
