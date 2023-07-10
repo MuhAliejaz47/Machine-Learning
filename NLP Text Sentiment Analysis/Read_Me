@@ -1,1 +1,17 @@
+Making it Functional:
 
+You will need to run these three commands in your command line:
+
+pip install nltk
+pip install textblob
+pip install newspaper3k
+
+About:
+
+This is my very basic text sentiment analysis program.
+It uses first the newspaper articles to predict the score between -1 and 1 where -1 is very negative and 1 is very positive.
+Next, thing is that we use our own generated text to see how well the program can predict the sentiment of a text.
+Change the program as you like make changes in the positive, negative, and neutral text files to see the change.
+Use Different URL links of different articles to see how every article is treated by the code.
+Instead of using the summary use the whole text to see the difference,
+Make the code you own. Enjoy :)
