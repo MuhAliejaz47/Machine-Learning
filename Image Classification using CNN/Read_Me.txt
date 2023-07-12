@@ -1,6 +1,6 @@
 Requirements:
 
-To make this program functional you need basic python libraries like numpy, matplotlib and also opencv and tensorflow.
+To make this program functional you need basic Python libraries like numpy, matplotlib and also opencv and tensorflow.
 
 to install all you need to execute these commands in cmd
 
@@ -19,18 +19,18 @@ Step 2:
 Scale the image into 32 x 32 size
 
 Step 3:
-Store the image into the same folder where you have this execution file
+Store the image in the same folder where you have this execution file.
 
 Step 4:
-The image that you want to test, pass the name of that imge into this line in the code below:
+For the image that you want to test, pass the name of that image into this line in the code below:
 
 img = cv.imread('horse.jpg')
 
-Replace horse.jpg by your image name.
+Replace horse.jpg with your image name.
 
 List of class names that this program classifies:
 
-The images that this program can classify are of:
+The images that this program can classify are:
 
 1. Plane
 2. Car
@@ -41,17 +41,19 @@ The images that this program can classify are of:
 7. Frog
 8. Horse
 9. Ship
-10.Truck
+10. Truck
 
 Note:
 
 Make sure to ask any questions that you want.
 
-First of all the program might take some time to download the data and train but once that model it train just store the train model and load it so that it doesnot have to train everytime you run it.
+For the first time, the program might take some time to download the data.
 
-You donot need to download anything else additionally
+No time will be taken to train the model as I have already provided the trained model with the execution files. 
 
-Try you own selected images and check if the predictions are good or not.
+You do not need to download anything else additionally.
+
+Try your own selected images and check if the predictions are good or not.
 
 Make the code your own enjoy :) 
 
