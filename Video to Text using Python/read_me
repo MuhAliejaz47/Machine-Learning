@@ -1,1 +1,35 @@
+To get this program running you need to install Moviepy and Assemblyai.
+To do that run the commands given below in your cmd.
 
+Step 1:
+
+pip install moviepy
+pip install assemblyai
+
+
+Step 2:
+
+GOTO:
+https://www.assemblyai.com
+
+Click on the "Get Started With The API" button in the top right corner of the window.
+
+Enter your mail and copy the API-Key and enter it in the code at:
+
+aai.settings.api_key = ""
+
+Step 3:
+
+If you are using my given video or your own video make sure that the video is in the same folder in which your code file is.
+You can also provide the full path in:
+
+input_video_path = ""
+
+if the video is somewhere else.
+
+
+Note:
+
+In this project, I have used AssemblyAI which is a free tool to convert the audio to text.
+I tried to use speech recognition but as you can see I am using a very noisy video with not very clear and clean audio it did not perform well.
+Two or three words are off but Assemblyai did a good enough Job.
