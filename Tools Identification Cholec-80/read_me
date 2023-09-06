@@ -1,1 +1,62 @@
+Let's get started.
+
+Basic Requirements:
+
+Visual Studio Code that runs jupyter notebook.
+
+Step 2:
+
+Open the instrument detection file in visual studio code.
+
+Click on the terminal on the left upper part of the screen.
+
+and run these commands:
+
+pip install matplotlib.pylpot
+
+pip install os
+
+pip install cv2
+
+pip install numpy
+
+pip install tensorflow
+
+pip install keras
+
+you might have most of these things already but I am just making sure.
+
+
+Step 3:
+
+You should have the whole dataset downloaded on your system.
+
+Go and extract the dataset if you haven't yet.
+
+It will have 3 folders after extraction.
+
+frames,tool_annotation and phase_annotation.
+
+Forget the phase annotation.
+
+Copy or cut the frames and tool_annotations folders
+
+and paste them in the folder you have the instruments detection file.
+
+make sure that the folder names are exactly 'frames' and 'tool_annotations' (case sensitive).
+
+
+Step 4:
+
+Open the instrument detection.ipynb and run each cell in order one after the other. 
+
+
+Step5:
+
+Once you have done the training and want to see how your model is doing make a test folder.
+ 
+Transfer one video folder to that test folder and run the cells below the training cells to get the predictions.
+
+
+
 
