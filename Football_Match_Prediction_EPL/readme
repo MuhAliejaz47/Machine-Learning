@@ -1,1 +1,11 @@
-sadew
+This is a football match prediction project.
+I have used 3 different models. 
+
+1. LSTM
+2. Random Forest
+3. Logistic Regression
+
+The dataset is a decade of EPL games from 2010-2020.
+
+I have shared the dataset files after cleaning.
+
