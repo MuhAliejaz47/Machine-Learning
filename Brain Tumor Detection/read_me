@@ -1,0 +1,6 @@
+The paper discussed about a Convolutional Neural Network implementation for MRI scans.
+By implementing CNNs in the analysis of MRI scans, the paper demonstrates how deep learning techniques can effectively learn discriminative features, accurately segment anatomical structures, predict diseases, and assist in clinical decision-making processes. The flexibility and adaptability of CNN architectures make them well-suited for handling the complexity and variability inherent in medical imaging data, ultimately contributing to advancements in diagnostic accuracy and patient care.
+
+
+In our implementation we will be using a Brain MRI Scan Image dataset and use a new methodology to solve this problem.
+We will be using ResNet to detect the tumour and non-tumour MRI’s. ResNet, short for Residual Network, is a deep convolutional neural network architecture designed to address the challenges of training very deep neural networks effectively.
