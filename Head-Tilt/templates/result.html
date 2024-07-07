@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Eye Tilt Angle</h1>
+    {% if angle is not none %}
+        <p>The calculated eye tilt angle is: {{ angle }} degrees</p>
+    {% else %}
+        <p>Could not detect eyes in the image.</p>
+    {% endif %}
+    <a href="{{ url_for('index') }}">Upload another image</a>
+</body>
+</html>
